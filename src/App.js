@@ -17,7 +17,7 @@ function Navbar() {
     return (
         <MDBNavbar expand='lg' light bgColor='light'>
             <MDBContainer fluid>
-                <MDBNavbarBrand href='#'>Brand</MDBNavbarBrand>
+                <MDBNavbarBrand href='#'>Yugioh</MDBNavbarBrand>
 
                 <MDBNavbarToggler
                     aria-controls='navbarSupportedContent'

@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from './App';
 import Carousel from './Carousel';
-import Games from './Games';
+import Video from "./Video";
+import Characters from './Characters';
+import MainMonsters from "./MainMonsters";
 import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -20,10 +22,24 @@ carousel.render(
     </React.StrictMode>
 )
 
-const games = ReactDOM.createRoot(document.getElementById('games'));
-games.render(
+const video = ReactDOM.createRoot(document.getElementById('video'));
+video.render(
     <React.StrictMode>
-        <Games />
+        <Video />
+    </React.StrictMode>
+)
+
+const characters = ReactDOM.createRoot(document.getElementById('characters'));
+characters.render(
+    <React.StrictMode>
+        <Characters />
+    </React.StrictMode>
+)
+
+const mainMonsters = ReactDOM.createRoot(document.getElementById('mainMonsters'));
+mainMonsters.render(
+    <React.StrictMode>
+        <MainMonsters />
     </React.StrictMode>
 )
 

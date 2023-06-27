@@ -7,3 +7,28 @@
     top:0;
     left:0;
 }
+
+.character-img {
+    width: 420px;
+    height: 234px;
+}
+
+.monster-img {
+    width: 400px;
+    height: 600px;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

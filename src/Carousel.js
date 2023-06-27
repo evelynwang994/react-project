@@ -11,29 +11,26 @@ function Carousel() {
             <MDBCarouselItem
                 className='w-100 d-block'
                 itemId={1}
-                src='https://cdn.mos.cms.futurecdn.net/wc42Pb2AmwxWWjBuSK7RYM.jpg'
-                alt='Dune'
+                src='https://i.pinimg.com/originals/ce/d0/2c/ced02cef893593184122b3fec272c158.jpg'
+                alt='Osiris'
             >
-                <h5>Dune</h5>
-                <p>Dune Introduction</p>
+                <h5>Osiris</h5>
             </MDBCarouselItem>
             <MDBCarouselItem
                 className='w-100 d-block'
                 itemId={2}
-                src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXLJypBWoaq7p4bMwHVlShFEEl7c8vx6sKPw&usqp=CAU'
-                alt='Devotion'
+                src='https://ms.yugipedia.com//b/be/Obelisk.png'
+                alt='Obelisk'
             >
-                <h5>Devotion</h5>
-                <p>Devotion Introduction</p>
+                <h5>Obelisk</h5>
             </MDBCarouselItem>
             <MDBCarouselItem
                 className='w-100 d-block'
-                itemId={2}
-                src='https://m.media-amazon.com/images/M/MV5BY2U4ZDE0M2EtM2M0Zi00Yzk2LThhNzQtMWQwNzBhODNkMmM5XkEyXkFqcGdeQXVyMTExNzQzMDE0._V1_.jpg'
-                alt='The Bridge Curse'
+                itemId={3}
+                src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf9_Bkp6No9c54kDts85IyGQylfrYOSHc_-w&usqp=CAU'
+                alt='Ra'
             >
-                <h5>The Bridge Curse</h5>
-                <p>The Bridge Curse Introduction</p>
+                <h5>Ra</h5>
             </MDBCarouselItem>
         </MDBCarousel>
     );
